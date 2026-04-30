@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Running automatic tests"
+      - test -f index.html
+      - test -f style.css
+      - test -f app.js
+      - grep -q "Alexandra" index.html
+      - echo "All tests passed"
+
+artifacts:
+  files:
+    - index.html
+    - style.css
+    - app.js
