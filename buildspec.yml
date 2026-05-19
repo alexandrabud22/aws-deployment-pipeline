@@ -3,7 +3,6 @@ version: 0.2
 phases:
   build:
     commands:
-      - exit 1        # ← TEMPORARY: forces failure to test EventBridge alert
       - echo "Running automatic tests"
       - test -f index.html
       - test -f style.css
