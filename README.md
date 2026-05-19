@@ -17,7 +17,7 @@ The project follows a fully serverless cloud architecture and does not use any v
 
 ## Live Website
 
-https://YOUR-CLOUDFRONT-URL.cloudfront.net
+https://d2vj4y0fqmg8u.cloudfront.net
 
 ---
 
