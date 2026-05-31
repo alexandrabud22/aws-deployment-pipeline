@@ -1,30 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexandra Bud - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Alexandra Bud</h1>
-    <h3>Computer Science Student</h3>
+    <header class="hero">
+        <div class="hero-content">
+            <p class="tag">Cloud Computing Project</p>
+            <h1>Alexandra Bud</h1>
+            <h3>Computer Science Student</h3>
+            <p class="intro">
+                I am a computer science student currently on Erasmus, interested in cloud computing,
+                software development, and automated cloud deployment.
+            </p>
+        </div>
+    </header>
 
-    <h2>About Me</h2>
-    <p>I am a computer science student currently on Erasmus, interested in cloud computing and software development.</p>
+    <main class="container">
 
-    <h2>Skills</h2>
-    <ul>
-        <li>Java</li>
-        <li>Python</li>
-        <li>Web Development</li>
-        <li>AWS (learning)</li>
-    </ul>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                I am currently learning how to design, build, and deploy cloud-based applications.
+                This portfolio website is deployed automatically using an AWS CI/CD pipeline.
+            </p>
+        </section>
 
-    <h2>Projects</h2>
-    <p>AWS Deployment Pipeline - automatic website deployment using AWS services.</p>
+        <section class="card">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>Java</span>
+                <span>Python</span>
+                <span>Web Development</span>
+                <span>AWS</span>
+                <span>CI/CD</span>
+                <span>Cloud Computing</span>
+            </div>
+        </section>
 
-    <h2>Version</h2>
-    <p>v4 updated</p>
+        <section class="card">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>AWS Deployment Pipeline</h3>
+                <p>
+                    Automatic website deployment using GitHub, AWS CodePipeline, CodeBuild,
+                    Amazon S3, CloudFront, and SNS notifications.
+                </p>
+            </div>
+        </section>
+
+        <section class="card version-card">
+            <h2>Version</h2>
+            <p>v5 improved design</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Created by Alexandra Bud | Cloud Computing Project</p>
+    </footer>
+
     <script src="app.js"></script>
 </body>
 </html>
